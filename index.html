@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/experience.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  
+  <section>
+    <header class="header-top">
+      <nav class="nav">
+        <h1 class="logo">Porta<span>folio</span></h1>
+        <button class="open-menu" aria-label="Open Menu">
+          <img src="icons/hamburger-icon.svg" alt="Open Menu">
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Close Menu">
+            <img src="icons/close-icon.svg" alt="Close Menu">
+          </button>
+          <li><a href="#profile">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades </a></li>
+          <li class="contact"><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+
+  <div class="h-padding v-padding">
+    <section id="profile">
+      <div class="profile-info-section">
+        <h2 class="profile-title">Hola!, soy <br />Martín Maiarú</h2>
+        <p class="profile-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <button class="profile-btn">Descargar CV</button>
+      </div>
+      <span class="profile-img-section">
+        <img class="profile-img" src="img/foto1x1nb.png" alt="Foto del Desarrollador"/>
+        <span class="profile-img-detail"></span>
+      </span>
+    </section>
+  </div>
+
+  <div class="h-padding v-padding">
+  </div>
+    <section id="experience">
+      <img src="img/wave-transition-down.svg" class="transition-start" alt="page background transition">
+      <div class="experiences-container">
+        <h2 class="experiences-title">Mi Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">Empresa</div>
+            <div class="experience-position">Puesto del trabajo</div>
+            <div class="experience-description">Descripcion del trabajo</div>
+          </div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">Empresa</div>
+            <div class="experience-position">Puesto del trabajo</div>
+            <div class="experience-description">Descripcion del trabajo</div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">Empresa</div>
+            <div class="experience-position">Puesto del trabajo</div>
+            <div class="experience-description">Descripcion del trabajo</div>
+          </div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">Empresa</div>
+            <div class="experience-position">Puesto del trabajo</div>
+            <div class="experience-description">Descripcion del trabajo</div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+        </div>
+      </div>
+      <img src="img/wave-transition-up.svg" class="transition-end" alt="page background transition">
+    </section>
+  
+
+  <div class="h-padding v-padding">
+    <section id="skills">
+        <h2 class="skills-title"> Mis Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill html">HTML : 9/10</li>
+          <li class="skills-skill css">CSS : 8/10</li>
+          <li class="skills-skill boostrap">Boostrap : 8/10</li>
+          <li class="skills-skill javascript">JavasCript : 8/10</li>
+          <li class="skills-skill jquery">Jquery : 8/10</li>
+          <li class="skills-skill typescript">TypeScript : 7/10</li>
+          <li class="skills-skill react">React.js 7/10</li>
+        </ul>
+    </section>
+  </div>
+
+  <hr>
+
+  <section id="services">
+    <div class="tittle">
+      <h2>Mis servicios</h2>
+    </div>
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Desarrollo Web</h5>
+        <div class="pra">
+          <p>Todos los sitios web deberían construirse bajo 2 premisas: Tienen que funcionar en todos los dispositivos, y deben ser lo más rápido posible.</p>
+          <p style="text-align: center;">
+            <a chref="#"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <div class="contact-form">
+      <h1>charlemos <span>un poco</span></h1>
+      <p>Estoy disponible para trabajos Freelance o con contrato fijo para empresas en remoto.</p>
+      <form action="">
+        <input type="" placeholder="Tu Nombre" required>
+        <input type="email" name="email" id="" placeholder="Tu E-mail" required>
+        <input type="" placeholder="El asunto" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje">
+
+        </textarea>
+        <input type="submit" value="Enviar" class="submit-btn">
+      </form>
+    </div>
+    <div class="contact-img">
+      <img src="#" alt="Foto">
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="footer">
+    <footer>
+      <a href="https://api.whatsapp.com/send?phone=2235643436&text=Hola!" target="_blank">
+        <img src="icons/wp.png" alt="WatsApp" width="50" height="50">
+      </a>
+      <button><a href="#">LinkedIn</a></button>
+      <button><a href="#">GitHub</a></button>
+    </footer>
+  </section>
+
+</body>
+</html>

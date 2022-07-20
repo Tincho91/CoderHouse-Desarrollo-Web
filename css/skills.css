@@ -1,0 +1,79 @@
+.skills {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.skills-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.skills-skill {
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.html {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 90%, rgba(0,0,0,1) 100%);
+}
+
+.css {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 80%, rgba(0,0,0,1) 90%);
+}
+
+.boostrap {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 80%, rgba(0,0,0,1) 90%);
+}
+
+.javascript {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 80%, rgba(0,0,0,1) 90%);
+}
+
+.jquery {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 80%, rgba(0,0,0,1) 90%);
+}
+
+.typescript {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 70%, rgba(0,0,0,1) 80%);
+}
+
+.react {
+  background: rgb(65,105,225);
+  background: linear-gradient(90deg, rgba(65,105,225,1) 70%, rgba(0,0,0,1) 80%);
+}
+
+@media (min-width: 950px){
+  .skills-title {
+    font-size: 50px;
+  }
+  
+  .skills-skill {
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
