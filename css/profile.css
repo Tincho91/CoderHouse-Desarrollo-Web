@@ -1,22 +1,13 @@
 .profile-img {
   width: 80%;
   max-width: 350px;
+  border-radius: 10px 100px / 120px;
+  background-color: var(--background-color-inverse);
 }
 
 .profile-img-section {
   position: relative;
   
-}
-
-.profile-img-detail {
-  background: rgb(65,105,225);
-  background: linear-gradient(90deg, rgba(65,105,225,1) 0%, rgba(29,152,253,1) 50%, rgba(65,105,225,1) 100%);
-  height: 10px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  border-radius: 3px;
 }
 
 #profile {
