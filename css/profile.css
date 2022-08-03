@@ -10,8 +10,9 @@
   
 }
 
-#profile {
+.profile {
   text-align: center;
+  min-height: 100%;
 }
 
 .profile-title {

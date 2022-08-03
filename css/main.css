@@ -24,7 +24,7 @@ section[id] {
 }
 
 body {
-  background: #191919;
+  background-image: url(../img/tile_background.png);
   color: var(--text-color);
   padding-top: 70px;
 }
